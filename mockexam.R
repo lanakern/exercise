@@ -1,10 +1,6 @@
 # Mock Exam
 ###########
 
-# hi
-summary(mtcars)
+# subset data
+mazda <- mtcars[stringr::str_starts(rownames(mtcars), "Merc"), ]
 
-# find best figure
-library(ggplot2)
-ggplot(mtcars, mapping = aes(x = mpg, y = cyl)) +
-  geom_point()
