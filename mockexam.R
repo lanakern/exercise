@@ -1,7 +1,7 @@
 # Mock Exam
 ###########
 
-# create summary statistics
+# hi
 summary(mtcars)
 
 # find best figure
